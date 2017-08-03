@@ -29,6 +29,10 @@ extension SlideRightTransitionAnimator: UIViewControllerTransitioningDelegate {
         let offScreenLeft = CGAffineTransform(translationX: -container.frame.width, y: 0)
         //Make the toView off screen
         if isPresenting {
+            toView.transform = offScreenLeft
+        }
+        //Add both views to the container view
+        if isPresenting {
             container.addSubview(fromView)
             container.addSubview(toView)
         } else {

@@ -14,6 +14,7 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
     var transitions = ["Slide Down", "Slide Right", "Pop", "Rotate"]
     
     let slideDownTransition = SlideDownTransitionAnimator()
+    let slideRightTransition = SlideRightTransitionAnimator()
     
     @IBOutlet var collectionView:UICollectionView!
     
@@ -67,6 +68,8 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
             switch selectedIndexPaths[0].row {
             case 0:
                 toViewController.transitioningDelegate = slideDownTransition
+            case 1:
+                toViewController.transitioningDelegate = slideRightTransition
             default:
                 break
             }
