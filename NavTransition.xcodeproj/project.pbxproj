@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B70B4B251F33345400B6E817 /* SlideDownTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70B4B241F33345400B6E817 /* SlideDownTransitionAnimator.swift */; };
 		F412073D1DC0B39D00CF8039 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F412073C1DC0B39D00CF8039 /* AppDelegate.swift */; };
 		F41207421DC0B39D00CF8039 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F41207401DC0B39D00CF8039 /* Main.storyboard */; };
 		F41207441DC0B39D00CF8039 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F41207431DC0B39D00CF8039 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B70B4B241F33345400B6E817 /* SlideDownTransitionAnimator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDownTransitionAnimator.swift; sourceTree = "<group>"; };
 		F41207391DC0B39D00CF8039 /* NavTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NavTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F412073C1DC0B39D00CF8039 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F41207411DC0B39D00CF8039 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				F412074E1DC0B8A600CF8039 /* MenuViewController.swift */,
 				F41207501DC0B90400CF8039 /* MenuCell.swift */,
 				F42D61421DC0BD670096F13D /* DetailViewController.swift */,
+				B70B4B241F33345400B6E817 /* SlideDownTransitionAnimator.swift */,
 			);
 			path = NavTransition;
 			sourceTree = "<group>";
@@ -146,6 +149,7 @@
 				F412074F1DC0B8A600CF8039 /* MenuViewController.swift in Sources */,
 				F41207511DC0B90400CF8039 /* MenuCell.swift in Sources */,
 				F42D61431DC0BD670096F13D /* DetailViewController.swift in Sources */,
+				B70B4B251F33345400B6E817 /* SlideDownTransitionAnimator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
