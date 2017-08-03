@@ -16,6 +16,7 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
     let slideDownTransition = SlideDownTransitionAnimator()
     let slideRightTransition = SlideRightTransitionAnimator()
     let popTransition = PopTransitionAnimator()
+    let rotateTransition = RotateTransitionAnimator()
     
     @IBOutlet var collectionView:UICollectionView!
     
@@ -73,6 +74,8 @@ class MenuViewController: UIViewController, UICollectionViewDataSource, UICollec
                 toViewController.transitioningDelegate = slideRightTransition
             case 2:
                 toViewController.transitioningDelegate = popTransition
+            case 3:
+                toViewController.transitioningDelegate = rotateTransition
             default:
                 break
             }
